@@ -1,0 +1,8 @@
+*.xlsx
+*.pkl
+analytics/output/
+analytics/.cache/
+__pycache__/
+.claude/
+.env
+analytics/reference/client_private.json

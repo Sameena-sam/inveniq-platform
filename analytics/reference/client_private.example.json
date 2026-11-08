@@ -1,0 +1,17 @@
+{
+  "rq4_client_plan": {
+    "push": [
+      "Territory A"
+    ],
+    "cut back": [
+      "Territory B"
+    ],
+    "decided_at": "2023-24"
+  },
+  "stopped_by_choice": [
+    "Territory C"
+  ],
+  "rep_left": [
+    "Territory D"
+  ]
+}

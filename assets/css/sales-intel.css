@@ -1,0 +1,17 @@
+/* =============================================
+   InvenIQ — Sales Intelligence pages
+   (Regional Performance, Product Categories)
+   ============================================= */
+.si-legend   { display: flex; flex-wrap: wrap; gap: 10px; font-size: 12px; color: var(--text-2); }
+.si-dot      { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; }
+.si-heat     { white-space: nowrap; }
+.si-reasons  { margin: 0; padding-left: 18px; font-size: 13px; color: var(--text-2); line-height: 1.6; }
+.si-mini     { font-size: 11px; color: var(--text-3); }
+.si-name     { font-weight: 600; color: var(--text); }
+.si-kv       { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 16px; font-size: 13px; margin: 12px 0; }
+.si-kv div span { color: var(--text-3); }
+.si-method   { font-size: 13px; color: var(--text-2); line-height: 1.7; }
+.si-method b { color: var(--text); }
+.si-row      { cursor: pointer; }
+table.data-table.si-compact th, table.data-table.si-compact td { padding-left: 10px; padding-right: 10px; }
+@media (max-width: 900px) { .two-col-grid { grid-template-columns: 1fr; } .si-kv { grid-template-columns: 1fr; } }

@@ -1,0 +1,14 @@
+Options -Indexes
+DirectoryIndex index.php
+# Sales data and the database dump: scripts read these from disk, so never serve them over the web.
+<FilesMatch "\.(xlsx|pkl|sql)$">
+    Require all denied
+</FilesMatch>
+RewriteEngine On
+RewriteBase /inveniq/
+RewriteRule ^\.claude(/|$) - [F,L]
+RewriteRule ^$ pages/dashboard.php [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-z-]+)$ pages/$1.php [L]
+RewriteRule ^api/(.*)$ api/index.php [L,QSA]

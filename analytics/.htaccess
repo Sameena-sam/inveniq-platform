@@ -1,0 +1,2 @@
+# Results and working files hold customer names: never serve them over the web.
+Require all denied

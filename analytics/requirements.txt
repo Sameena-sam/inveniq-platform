@@ -1,0 +1,7 @@
+# InvenIQ Sales Intelligence — Python dependencies
+# Install with:  pip install -r requirements.txt
+pandas>=1.5
+numpy>=1.23
+openpyxl>=3.1          # read the .xlsx dataset
+PyMySQL>=1.0           # write results to the sa_* tables
+scikit-learn>=1.3      # RQ2 classifiers (next module)
