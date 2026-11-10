@@ -63,6 +63,3 @@ Database, ML service and AI settings come from environment variables (`DB_HOST`,
 
 The distributor's sales workbook, trained models and analytics outputs are company data and are not in this repository. `database.sql` contains demo data only.
 
-## Credits
-
-Built by Sameena Siddiqua. The demand forecasting module (`ml/`) was built by Loula Sahal Ali.
